@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+        <item android:id="@+id/homeMN"
+              android:title="Home"
+              android:icon="@drawable/home"
+              app:showAsAction="always">
+
+        </item>
+
+        <item android:id="@+id/CoursesMN"
+            android:title="Courses"
+            android:icon="@drawable/courses"
+            app:showAsAction="always">
+
+        </item>
+
+        <item android:id="@+id/ProfileMN"
+            android:title="Profile"
+            android:icon="@drawable/user"
+            app:showAsAction="always">
+
+        </item>
+
+
+
+
+        <item android:id="@+id/LogoutMN"
+            android:title="Log Out"
+            app:showAsAction="never">
+
+        </item>
+
+
+
+
+</menu>

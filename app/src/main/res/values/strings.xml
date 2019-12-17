@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Course_Registration</string>
+    <string name="Nav_open">Open</string>
+    <string name="Nav_close">Close</string>
+
+    <string-array name="programmingName">
+
+        <item>C Programming</item>
+        <item>C++</item>
+        <item>C#</item>
+        <item>Java</item>
+        <item>JavaScript</item>
+        <item>Python</item>
+        <item>Ruby</item>
+        <item>PHP</item>
+
+
+    </string-array>
+
+    <string-array name="EEECourse">
+        <item>Digital Electronic</item>
+        <item>Electric Circuit1</item>
+        <item>Electric Circuit2</item>
+        <item>Electric Circuit3</item>
+
+    </string-array>
+
+    <string-array name="SWCourses">
+        <item>System Analysis</item>
+        <item>Software Testing</item>
+        <item>Software Engineering</item>
+        <item>UI Design</item>
+        <item>Software Develpoing Model</item>
+    </string-array>
+</resources>

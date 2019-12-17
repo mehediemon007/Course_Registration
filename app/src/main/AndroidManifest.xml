@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dcl.course_registration">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="LearningBD"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Sing_In"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sign_Up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Course_Details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ComputerScienceCourses" />
+        <activity android:name=".EEECourses" />
+        <activity android:name=".SWCourses" />
+        <activity android:name=".SelectedCourse" />
+        <activity android:name=".Profile"></activity>
+    </application>
+
+</manifest>
